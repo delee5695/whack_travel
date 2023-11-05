@@ -53,7 +53,7 @@ class Home extends StatelessWidget {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: <Widget>[
                     Text('Time difference: -5 hours'),
-                    Image.asset('assets/clock.png'), // Add your image asset
+                    // Image.asset('assets/clock.png'), // Add your image asset
                   ],
                 ),
               ),
