@@ -14,6 +14,11 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: MyHomePage(),
+      title: 'whack_travel',
+      theme: ThemeData(
+        scaffoldBackgroundColor: const Color.fromARGB(255, 255, 255, 255),
+        primaryColor: const Color.fromARGB(255, 78, 179, 171),
+      ),
     );
   }
 }
